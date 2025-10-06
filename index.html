@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head class="text-center mb-4">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Music Page - Dylan Gossett</title>
-
+        <!-- Link to Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
         <link rel="stylesheet" href="./css/style.css"/>
 
     </head>
     <body>
-        <main id="page1_content">
-            <header id="main_page_header">
-                <h1>My Music Page</h1>
-                <p>This is a page all about the music and artists that I like!</p>
-            </header>
-    
-            <article id="gossett">
-                <h2>Dylan Gossett</h3>
-                <p>Texas singer-songwriter.</p>
-                <img alt="Dylan Gossett" src="img/dylan_gossett.png" alt="Dylan Gossett playing guitar" width="33%"/>
-                <div id="song_album_wrapper">
-                    <section id="songs">
-                        <p class="subheader">Favorite Songs:</p>
+        <div class="container mt-4">
+            <main id="page1_content">
+                <header id="main_page_header">
+                    <h1>My Music Page</h1>
+                    <p class="lead">This is a page all about the music and artists that I like!</p>
+                </header>
+        
+                <article id="gossett">
+                    <h2>Dylan Gossett</h3>
+                    <p>Texas singer-songwriter.</p>
+                    <img alt="Dylan Gossett" src="img/dylan_gossett.png" alt="Dylan Gossett playing guitar" width="33%"/>
+                    <div class="row">
+                        <section class="col-md-6 mb-4">
+                            <p class="subheader">Favorite Songs:</p>
+                            <ul>
+                                <li>Coal</li>
+                                <li>Beneath Oak Trees</li>
+                                <li>Sweet Lady</li>
+                            </ul>
+                        </section>
+
+                        <section class="col-md-6 mb-4">
+                            <p class="subheader">Best Albums</p>
+                            <ul>
+                                <li>Westward</li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <p class="text-center">Click <a href="https://www.dylangossett.com">here</a> to learn more about Dylan Gossett</p>  
+                </article>
+                <footer class="mt-5">
+                    <nav class="d-flex justify-content-center gap-4">
+                        <h2 style="text-align: center;">See my other favorite artists:</h2>
                         <ul>
-                            <li>Coal</li>
-                            <li>Beneath Oak Trees</li>
-                            <li>Sweet Lady</li>
+                            <li><a href="./hudson.html" class="btn btn-sucess">Hudson Westbrook</a></li>
+                            <li><a href="./kashus.html" class="btn btn-sucess">Kashus Culpepper</a></li>
                         </ul>
-                    </section>
-
-                    <section id="albums">
-                        <p class="subheader">Best Albums</p>
-                        <ul>
-                            <li>Westward</li>
-                        </ul>
-                    </section>
-                </div>
-
-                <p class="button">Click <a href="https://www.dylangossett.com">here</a> to learn more about Dylan Gossett</p>  
-            </article>
-
-            <nav id="footer">
-                <h2 style="text-align: center;">See my other favorite artists:</h2>
-                <ul>
-                    <li><a href="./hudson.html">Hudson Westbrook</a></li>
-                    <li><a href="./kashus.html">Kashus Culpepper</a></li>
-                </ul>
-            </nav>  
-        </main>
+                    </nav>  
+                </footer>
+                
+            </main>
+        </div>
     </body>
 </html>
