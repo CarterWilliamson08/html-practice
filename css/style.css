@@ -64,6 +64,14 @@ img {
     background-color: bisque;
 }
 
+#westbrook {
+    background-color: rgb(227, 158, 158);
+}
+
+#culpepper {
+    background-color: rgb(140, 175, 205);
+}
+
 #songs {
     width: 50%;
     background-color: lightblue;
